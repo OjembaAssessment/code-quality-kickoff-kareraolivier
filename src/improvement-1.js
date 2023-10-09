@@ -6,5 +6,5 @@
 
 // FUNCTION 1
 export default function cntRbt(ls) {
-  return ls.filter((el) => el === "R").length;
+  return [...ls].filter((el) => el === "R").join("").length;
 }
